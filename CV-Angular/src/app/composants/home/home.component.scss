@@ -2,32 +2,48 @@ html {
   position: relative;
 }
 .HomeComponent {
-  border: 1px solid red;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, 50%);
+}
+.PhotoInfo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.Left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.buttonMore {
-  margin-top: 0.5vw;
-  width: 80%;
-}
+
 .ProfilePic {
-  width: 15vw;
+  width: 20vw;
   height: auto;
+}
+.Info {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2vw;
+  .name {
+    font-size: 3vw;
+  }
 }
 #homeLine {
   display: flex;
   align-items: center;
+
+  margin-top: 1vw;
 }
+
 .IconHome {
-  margin: 10px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.buttonMore {
+  width: 40%;
+  height: 5vw;
+  border: 1px solid #b4b4b4;
+  margin-top: 2vw;
+  margin-left: 30%;
+  align-content: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 3vw;
+  cursor: pointer;
 }
