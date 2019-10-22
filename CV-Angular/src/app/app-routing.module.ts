@@ -7,7 +7,14 @@ import { BadgesComponent } from "./composants/badges/badges.component";
 import { XpComponent } from "./composants/xp/xp.component";
 import { ResumeComponent } from "./composants/resume/resume.component";
 
-const routes: Routes = [{ path: "", component: HomeComponent }];
+const routes: Routes = [
+  { path: "", component: HomeComponent },
+  { path: "navbar", component: NavBarComponent },
+  { path: "Info", component: SidebarComponent },
+  { path: "Badges", component: BadgesComponent },
+  { path: "xp", component: XpComponent },
+  { path: "Resume", component: ResumeComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
