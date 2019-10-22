@@ -10,10 +10,10 @@ import { ResumeComponent } from "./composants/resume/resume.component";
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "navbar", component: NavBarComponent },
-  { path: "Info", component: SidebarComponent },
-  { path: "Badges", component: BadgesComponent },
+  { path: "info", component: SidebarComponent },
+  { path: "badges", component: BadgesComponent },
   { path: "xp", component: XpComponent },
-  { path: "Resume", component: ResumeComponent }
+  { path: "resume", component: ResumeComponent }
 ];
 
 @NgModule({
