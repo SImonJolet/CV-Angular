@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=nav-bar.component.css.map */
+.navBar {
+  margin-top: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navBar a {
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+/*# sourceMappingURL=nav-bar.component.css.map */
