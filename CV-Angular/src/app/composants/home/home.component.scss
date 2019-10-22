@@ -5,7 +5,7 @@ html {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 20%);
 }
 .PhotoInfo {
   display: flex;
@@ -34,13 +34,15 @@ html {
 .IconHome {
   margin-left: 2vw;
   margin-right: 2vw;
+  width: 3vw;
+  height: 3vw;
 }
 
 .buttonMore {
   width: 40%;
   height: 5vw;
   border: 1px solid #b4b4b4;
-  margin-top: 2vw;
+  margin-top: 4vw;
   margin-left: 30%;
   align-content: center;
   font-family: "Roboto Mono", monospace;
