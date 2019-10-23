@@ -44,8 +44,6 @@ Premier projet des pâturages : me créé un CV en ligne déployé et appréhend
 ## Technologies:
 
 - Angular
-- Parallax
-- Materialize
 - Nom de domaine
 - ...
 
