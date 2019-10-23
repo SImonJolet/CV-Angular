@@ -1,0 +1,11 @@
+.navBar {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-around;
+  a {
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+}

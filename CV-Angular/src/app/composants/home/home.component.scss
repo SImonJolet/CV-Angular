@@ -1,0 +1,51 @@
+html {
+  position: relative;
+}
+.HomeComponent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 20%);
+}
+.PhotoInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProfilePic {
+  width: 20vw;
+  height: auto;
+}
+.Info {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2vw;
+  .name {
+    font-size: 3vw;
+  }
+}
+#homeLine {
+  display: flex;
+  align-items: center;
+
+  margin-top: 1vw;
+}
+
+.IconHome {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 3vw;
+  height: 3vw;
+}
+
+.buttonMore {
+  width: 40%;
+  height: 5vw;
+  border: 1px solid #b4b4b4;
+  margin-top: 4vw;
+  margin-left: 30%;
+  align-content: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 3vw;
+  cursor: pointer;
+}
