@@ -1,3 +1,58 @@
 h1 {
   font-family: "Roboto Mono", monospace;
 }
+body {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 17% 20% 46% 17%;
+  grid-template-rows: 10vw 1fr 10vw;
+  font-family: "Roboto Mono", monospace;
+}
+.gauche {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 65% 35%;
+  text-align: center;
+  padding-top: 0.5vw;
+}
+.Photoprofil {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.infoGauche {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 9% 82% 9%;
+  grid-template-rows: 3% 19% 12% 3% 19% 16% 5% 19% 12%;
+}
+.iconTelephone {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.telephone {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.iconAdresse {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.adresse {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+.iconVoiture {
+  grid-column: 2/3;
+  grid-row: 8/9;
+}
+.voiture {
+  grid-column: 2/3;
+  grid-row: 9/10;
+}
+.droite {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
