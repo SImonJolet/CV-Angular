@@ -2,40 +2,140 @@
   font-family: "Space Mono", monospace;
   font-size: 4vw;
   margin: 4vw;
-  margin-bottom: 2vw;
+  margin-bottom: 1vw;
 }
 
 .techniques {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 16% 16% 16% 16% 16% 10%;
+      grid-template-columns: 10% 16% 16% 16% 16% 16% 10%;
+  -ms-grid-rows: 1vw 12vw 1vw 12vw 1vw;
+      grid-template-rows: 1vw 12vw 1vw 12vw 1vw;
+  margin-left: 1vw;
+}
+
+.centerBadges, #html5, #CSS3, #JS, #WordPress, #github, #React, #angular, #node, #sass, #graphQL {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: -1vw;
-  margin-left: 1vw;
-  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#html5 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+#CSS3 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+#JS {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+}
+
+#WordPress {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 1;
+  grid-column: 6/7;
+}
+
+#github {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 1;
+  grid-column: 5/6;
+}
+
+#React {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+#angular {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+}
+
+#node {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+#sass {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 1;
+  grid-column: 5/6;
+}
+
+#graphQL {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 1;
+  grid-column: 6/7;
 }
 
 #badgeText {
   font-family: "Roboto Mono", monospace;
   font-size: 2.8vw;
-  margin: 2.36vw;
   text-align: center;
 }
 
 .badge {
-  width: 10vw;
+  width: 8vw;
   height: auto;
-  position: absolute;
+  text-align: center;
 }
 
 .badge:hover {
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
-  width: 12vw;
+  width: 10vw;
   height: auto;
+  background-color: #d6eaf8;
+  border-radius: 50%;
 }
 
 .softskillsTitle {

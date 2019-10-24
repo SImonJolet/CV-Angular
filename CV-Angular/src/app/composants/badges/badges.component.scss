@@ -2,31 +2,95 @@
   font-family: "Space Mono", monospace;
   font-size: 4vw;
   margin: 4vw;
-  margin-bottom: 2vw;
+  margin-bottom: 1vw;
 }
 .techniques {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: -1vw;
+  display: grid;
+  grid-template-columns: 10% 16% 16% 16% 16% 16% 10%;
+  grid-template-rows: 1vw 12vw 1vw 12vw 1vw;
   margin-left: 1vw;
-  position: relative;
 }
+.centerBadges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#html5 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  @extend .centerBadges;
+}
+
+#CSS3 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  @extend .centerBadges;
+}
+
+#JS {
+  grid-row: 2/3;
+  grid-column: 4/5;
+  @extend .centerBadges;
+}
+
+#WordPress {
+  grid-row: 2/3;
+  grid-column: 6/7;
+  @extend .centerBadges;
+}
+
+#github {
+  grid-row: 2/3;
+  grid-column: 5/6;
+  @extend .centerBadges;
+}
+
+#React {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  @extend .centerBadges;
+}
+
+#angular {
+  grid-row: 4/5;
+  grid-column: 4/5;
+  @extend .centerBadges;
+}
+
+#node {
+  grid-row: 4/5;
+  grid-column: 3/4;
+  @extend .centerBadges;
+}
+
+#sass {
+  grid-row: 4/5;
+  grid-column: 5/6;
+  @extend .centerBadges;
+}
+
+#graphQL {
+  grid-row: 4/5;
+  grid-column: 6/7;
+  @extend .centerBadges;
+}
+
 #badgeText {
   font-family: "Roboto Mono", monospace;
   font-size: 2.8vw;
-  margin: 2.36vw;
   text-align: center;
 }
 .badge {
-  width: 10vw;
+  width: 8vw;
   height: auto;
-  position: absolute;
-
+  text-align: center;
   &:hover {
     transition-duration: 0.5s;
-    width: 12vw;
+    width: 10vw;
     height: auto;
+    background-color: #d6eaf8;
+    border-radius: 50%;
   }
 }
 .softskillsTitle {
