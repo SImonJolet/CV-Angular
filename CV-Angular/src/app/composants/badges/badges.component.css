@@ -1,3 +1,7 @@
+body {
+  cursor: default;
+}
+
 .xp {
   font-family: "Space Mono", monospace;
   font-size: 4vw;
@@ -117,16 +121,11 @@
   grid-column: 6/7;
 }
 
-#badgeText {
-  font-family: "Roboto Mono", monospace;
-  font-size: 2.8vw;
-  text-align: center;
-}
-
 .badge {
   width: 8vw;
   height: auto;
   text-align: center;
+  padding: 1vw;
 }
 
 .badge:hover {
@@ -136,6 +135,12 @@
   height: auto;
   background-color: #d6eaf8;
   border-radius: 50%;
+  border: 1px solid #f90808;
+  cursor: pointer;
+}
+
+.softskills {
+  margin-left: 5vw;
 }
 
 .softskillsTitle {
@@ -146,9 +151,25 @@
   margin-left: -1vw;
 }
 
-.softskills {
+ul {
+  list-style: circle;
+}
+
+li {
   font-family: "Roboto Mono", monospace;
   font-size: 2vw;
   margin-left: 5vw;
+}
+
+li:hover {
+  font-size: 2.5vw;
+  -webkit-transition-duration: 0.5;
+          transition-duration: 0.5;
+  list-style-type: disc;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=badges.component.css.map */
