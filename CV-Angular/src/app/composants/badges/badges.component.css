@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=badges.component.css.map */
+.xp {
+  font-family: "Space Mono", monospace;
+  font-size: 4vw;
+  margin: 4vw;
+  margin-bottom: 2vw;
+}
+
+.techniques {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: -1vw;
+  margin-left: 1vw;
+  position: relative;
+}
+
+#badgeText {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.8vw;
+  margin: 2.36vw;
+  text-align: center;
+}
+
+.badge {
+  width: 10vw;
+  height: auto;
+  position: absolute;
+}
+
+.badge:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  width: 12vw;
+  height: auto;
+}
+
+.softskillsTitle {
+  font-family: "Space Mono", monospace;
+  font-size: 4vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  margin-left: -1vw;
+}
+
+.softskills {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2vw;
+  margin-left: 5vw;
+}
+/*# sourceMappingURL=badges.component.css.map */
