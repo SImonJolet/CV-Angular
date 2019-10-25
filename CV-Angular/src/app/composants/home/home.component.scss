@@ -27,7 +27,6 @@ html {
 #homeLine {
   display: flex;
   align-items: center;
-
   margin-top: 1vw;
 }
 
@@ -48,4 +47,8 @@ html {
   font-family: "Roboto Mono", monospace;
   font-size: 3vw;
   cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
