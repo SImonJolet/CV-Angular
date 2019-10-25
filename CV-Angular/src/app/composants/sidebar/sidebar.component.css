@@ -1,63 +1,47 @@
-body {
-  display: -ms-grid;
-  display: grid;
-  margin: 0;
-  -ms-grid-columns: 17% 20% 46% 17%;
-      grid-template-columns: 17% 20% 46% 17%;
-  -ms-grid-rows: 10vw 1fr 10vw;
-      grid-template-rows: 10vw 1fr 10vw;
+.haut {
+  margin: 4vw;
+  margin-top: 7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.infoHaut {
   font-family: "Roboto Mono", monospace;
+  margin-left: 2vw;
+  margin-top: -2.3vw;
 }
 
-.gauche {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2% 96% 2%;
-      grid-template-columns: 2% 96% 2%;
-  -ms-grid-rows: 62% 38%;
-      grid-template-rows: 62% 38%;
+.infoBas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #eae7e7;
+  font-family: "Roboto Mono", monospace;
+  padding: 1vw;
+  margin: 2vw;
+}
+
+.barcontact, .Mail, .iconTelephone, .iconAdresse, .iconVoiture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.adresse {
   text-align: center;
-  padding-top: 0.5vw;
-  font-size: 1.2vw;
-}
-
-.Photoprofil {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1/2;
-}
-
-.infoGauche {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1/4;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 9% 82% 9%;
-      grid-template-columns: 9% 82% 9%;
-  -ms-grid-rows: 3% 19% 12% 3% 19% 12% 3% 19% 16% 5% 19% 12%;
-      grid-template-rows: 3% 19% 12% 3% 19% 12% 3% 19% 16% 5% 19% 12%;
-}
-
-.iconMail {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
 }
 
 #iconMail {
@@ -65,45 +49,9 @@ body {
   height: auto;
 }
 
-.mail {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
-}
-
-.iconTelephone {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 1;
-  grid-row: 5/6;
-}
-
 #iconTelephone {
   width: 3vw;
   height: auto;
-}
-
-.telephone {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 1;
-  grid-row: 6/7;
-}
-
-.iconAdresse {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 8;
-  -ms-grid-row-span: 1;
-  grid-row: 8/9;
 }
 
 #iconAdresse {
@@ -111,45 +59,12 @@ body {
   height: auto;
 }
 
-.adresse {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 9;
-  -ms-grid-row-span: 1;
-  grid-row: 9/10;
-}
-
-.iconVoiture {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 11;
-  -ms-grid-row-span: 1;
-  grid-row: 11/12;
-}
-
 #iconVoiture {
   width: 3vw;
   height: auto;
 }
 
-.voiture {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 12;
-  -ms-grid-row-span: 1;
-  grid-row: 12/13;
-}
-
 .droite {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3/4;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
   padding-left: 2vw;
   font-size: 1.95vw;
 }
@@ -159,6 +74,7 @@ body {
 }
 
 .Naissance {
+  padding-left: 1vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,6 +89,7 @@ body {
 }
 
 .Secteur {
+  padding-left: 1vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,6 +99,7 @@ body {
 }
 
 .Objectif {
+  padding-left: 1vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,6 +109,7 @@ body {
 }
 
 .date {
+  padding-left: 1vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

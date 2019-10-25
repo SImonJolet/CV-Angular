@@ -13,77 +13,86 @@
       rel="stylesheet"
     />
 
-    <title>Simon Jolet</title>
+    <title>Contact</title>
   </head>
+
+  <div *ngIf="router.url === '/badges'">
+    <app-nav-bar></app-nav-bar>
+  </div>
   <body>
-    <div class="gauche">
+    <div class="haut">
       <img
         class="Photoprofil"
         src="../../../assets/photo Cv en ligne.png"
         alt="PhotoCV"
-        width="100%"
+        width="30%"
+        height="auto"
       />
-      <div class="infoGauche">
-        <div class="iconMail">
+      <div class="infoHaut">
+        <div class="name">Simon Jolet</div>
+        <div class="Naissance">
+          <img
+            id="naissanceIcon"
+            src="https://img.icons8.com/ios/50/000000/birth-date.png"
+          />
+          5 septembre 1992
+        </div>
+        <h2 class="CeQueJeCherche">Ce que je cherche:</h2>
+        <div class="Secteur">
+          <img
+            id="SecteurIcon"
+            src="https://img.icons8.com/carbon-copy/100/000000/administrative-tools.png"
+          />Job: Web Dev (Front-end)
+        </div>
+
+        <div class="Objectif">
+          <img
+            id="ObjectifIcon"
+            src="https://img.icons8.com/carbon-copy/100/000000/document.png"
+          />Stage
+        </div>
+        <div class="date">
+          <img
+            id="dateIcon"
+            src="https://img.icons8.com/carbon-copy/100/000000/calendar.png"
+          />2 à 3 mois à partir du 9 décembre 2019
+        </div>
+      </div>
+    </div>
+    <div class="infoBas">
+      <div class="Mail">
+        <div>
           <img
             id="iconMail"
             src="https://img.icons8.com/carbon-copy/100/000000/email.png"
           />
         </div>
+
         <div class="mail">jolet.simon@yahoo.com</div>
-        <div class="iconTelephone">
-          <img
-            id="iconTelephone"
-            src="https://img.icons8.com/carbon-copy/45/000000/phone-not-being-used.png"
-          />
-        </div>
+      </div>
+      <div class="iconTelephone">
+        <img
+          id="iconTelephone"
+          src="https://img.icons8.com/carbon-copy/45/000000/phone-not-being-used.png"
+        />
 
         <div class="telephone">0474/76.35.27</div>
-        <div class="iconAdresse">
-          <img
-            id="iconAdresse"
-            src="https://img.icons8.com/dotty/45/000000/dog-house.png"
-          />
-        </div>
-        <div class="adresse">Quai de la Dérivation 11/3, 4020 Liège</div>
-
-        <div class="iconVoiture">
-          <img
-            id="iconVoiture"
-            src="https://img.icons8.com/carbon-copy/45/000000/fiat-500.png"
-          />
-        </div>
-        <div class="voiture">Voiture et permis B</div>
       </div>
-    </div>
-    <div class="droite">
-      <div class="name">Simon Jolet</div>
-      <div class="Naissance">
+      <div class="iconAdresse">
         <img
-          id="naissanceIcon"
-          src="https://img.icons8.com/ios/50/000000/birth-date.png"
+          id="iconAdresse"
+          src="https://img.icons8.com/dotty/45/000000/dog-house.png"
         />
-        5 septembre 1992
-      </div>
-      <h2 class="CeQueJeCherche">Ce que je cherche:</h2>
-      <div class="Secteur">
-        <img
-          id="SecteurIcon"
-          src="https://img.icons8.com/carbon-copy/100/000000/administrative-tools.png"
-        />Job: Web Dev (Front-end)
-      </div>
 
-      <div class="Objectif">
-        <img
-          id="ObjectifIcon"
-          src="https://img.icons8.com/carbon-copy/100/000000/document.png"
-        />Stage
+        <div class="adresse">Quai de la Dérivation 11/3, <br />4020 Liège</div>
       </div>
-      <div class="date">
+      <div class="iconVoiture">
         <img
-          id="dateIcon"
-          src="https://img.icons8.com/carbon-copy/100/000000/calendar.png"
-        />2 à 3 mois à partir du 9 décembre 2019
+          id="iconVoiture"
+          src="https://img.icons8.com/carbon-copy/45/000000/fiat-500.png"
+        />
+
+        <div class="voiture">Voiture et permis B</div>
       </div>
     </div>
   </body>

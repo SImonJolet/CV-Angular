@@ -1,83 +1,65 @@
-body {
-  display: grid;
-  margin: 0;
-  grid-template-columns: 17% 20% 46% 17%;
-  grid-template-rows: 10vw 1fr 10vw;
+.haut {
+  margin: 4vw;
+  margin-top: 7vw;
+  display: flex;
+}
+
+.infoHaut {
   font-family: "Roboto Mono", monospace;
+  margin-left: 2vw;
+  margin-top: -2.3vw;
 }
-.gauche {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  display: grid;
-  grid-template-columns: 2% 96% 2%;
-  grid-template-rows: 62% 38%;
+.infoBas {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eae7e7;
+  font-family: "Roboto Mono", monospace;
+  padding: 1vw;
+  margin: 2vw;
+}
+.barcontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Mail {
+  @extend .barcontact;
+}
+.iconTelephone {
+  @extend .barcontact;
+}
+.iconAdresse {
+  @extend .barcontact;
+}
+.iconVoiture {
+  @extend .barcontact;
+}
+.adresse {
   text-align: center;
-  padding-top: 0.5vw;
-  font-size: 1.2vw;
 }
-.Photoprofil {
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-.infoGauche {
-  grid-column: 1/4;
-  grid-row: 2/3;
-  display: grid;
-  grid-template-columns: 9% 82% 9%;
-  grid-template-rows: 3% 19% 12% 3% 19% 12% 3% 19% 16% 5% 19% 12%;
-}
-.iconMail {
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
+
 #iconMail {
   width: 3vw;
   height: auto;
 }
-.mail {
-  grid-column: 2/3;
-  grid-row: 3/4;
-}
-.iconTelephone {
-  grid-column: 2/3;
-  grid-row: 5/6;
-}
+
 #iconTelephone {
   width: 3vw;
   height: auto;
 }
-.telephone {
-  grid-column: 2/3;
-  grid-row: 6/7;
-}
 
-.iconAdresse {
-  grid-column: 2/3;
-  grid-row: 8/9;
-}
 #iconAdresse {
   width: 3vw;
   height: auto;
 }
-.adresse {
-  grid-column: 2/3;
-  grid-row: 9/10;
-}
-.iconVoiture {
-  grid-column: 2/3;
-  grid-row: 11/12;
-}
+
 #iconVoiture {
   width: 3vw;
   height: auto;
 }
-.voiture {
-  grid-column: 2/3;
-  grid-row: 12/13;
-}
+
 .droite {
-  grid-column: 3/4;
-  grid-row: 2/3;
   padding-left: 2vw;
   font-size: 1.95vw;
 }
@@ -85,6 +67,7 @@ body {
   font-family: "Space Mono", monospace;
 }
 .Naissance {
+  padding-left: 1vw;
   display: flex;
   align-items: center;
 }
@@ -93,14 +76,17 @@ body {
   font-size: 6vw;
 }
 .Secteur {
+  padding-left: 1vw;
   display: flex;
   align-items: center;
 }
 .Objectif {
+  padding-left: 1vw;
   display: flex;
   align-items: center;
 }
 .date {
+  padding-left: 1vw;
   display: flex;
   align-items: center;
 }
