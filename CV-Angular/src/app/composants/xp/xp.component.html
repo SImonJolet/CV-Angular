@@ -15,6 +15,9 @@
     <title>Simon Jolet</title>
   </head>
   <body>
+    <div *ngIf="router.url === '/xp'">
+      <app-nav-bar></app-nav-bar>
+    </div>
     <div class="formation">
       <p class="formationTitre">
         Formation et expériences professionnelles:
