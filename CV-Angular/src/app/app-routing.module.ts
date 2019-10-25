@@ -6,14 +6,15 @@ import { SidebarComponent } from "./composants/sidebar/sidebar.component";
 import { BadgesComponent } from "./composants/badges/badges.component";
 import { XpComponent } from "./composants/xp/xp.component";
 import { ResumeComponent } from "./composants/resume/resume.component";
-
+import { MainpageComponent } from "./composants/mainpage/mainpage.component";
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "navbar", component: NavBarComponent },
   { path: "info", component: SidebarComponent },
   { path: "badges", component: BadgesComponent },
   { path: "xp", component: XpComponent },
-  { path: "resume", component: ResumeComponent }
+  { path: "resume", component: ResumeComponent },
+  { path: "mainpage", component: MainpageComponent }
 ];
 
 @NgModule({

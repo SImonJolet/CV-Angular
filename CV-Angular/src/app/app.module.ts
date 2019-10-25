@@ -9,6 +9,7 @@ import { SidebarComponent } from './composants/sidebar/sidebar.component';
 import { BadgesComponent } from './composants/badges/badges.component';
 import { XpComponent } from './composants/xp/xp.component';
 import { ResumeComponent } from './composants/resume/resume.component';
+import { MainpageComponent } from './composants/mainpage/mainpage.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ResumeComponent } from './composants/resume/resume.component';
     SidebarComponent,
     BadgesComponent,
     XpComponent,
-    ResumeComponent
+    ResumeComponent,
+    MainpageComponent
   ],
   imports: [
     BrowserModule,
