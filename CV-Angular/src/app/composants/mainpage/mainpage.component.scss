@@ -1,0 +1,24 @@
+footer {
+  background-color: #eae7e7;
+  height: 7vw;
+  display: flex;
+  text-align: end;
+  flex-flow: reverse;
+  align-items: center;
+}
+.credit {
+  margin: 2vw;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4vw;
+}
+.Simon {
+  margin: 2vw;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4vw;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
