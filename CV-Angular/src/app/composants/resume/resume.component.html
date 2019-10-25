@@ -15,8 +15,11 @@
     <title>Simon Jolet</title>
   </head>
   <body>
-    <div class="textPresentation">
-      <h1><u>CV</u></h1>
+    <div *ngIf="router.url === '/resume'">
+      <app-nav-bar></app-nav-bar>
+    </div>
+    <div class="CV">Motivation:</div>
+    <div class="presentation">
       <p>
         Après quelques années dans l'HORECA, je me suis ré-orienté dans un
         nouveau défi: le <strong>web développement</strong> .
@@ -26,10 +29,12 @@
         J'ai eu la chance d'intégrer la formation <strong>BeCode</strong> et de
         pouvoir profiter d'un enseignement en
         <strong>pédagogie active</strong> , basé sur la recherche, sur
-        l'essai-erreur et sur des projets de groupe. <br />
+        l'essai-erreur et sur des projets de groupe.
+        <br />
         J'y ai appri les bases de nombreux outils, de choses aussi basiques que
         Git ou HTML5, à des choses plus pointues comme GraphQL, Angular ou
-        React. <br />
+        React.
+        <br />
         Au cours des mois, je me suis plus dirigé vers le
         <strong>front-end</strong>, mais j'ai pu acquérir quelques compétences
         en back-end.

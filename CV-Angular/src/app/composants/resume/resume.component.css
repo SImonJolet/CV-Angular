@@ -1,15 +1,53 @@
-.textPresentation {
-  margin: 4vw;
-  font-family: "Roboto Mono", monospace;
-  font-size: 1.5vw;
-}
-
 p {
   text-indent: 2vw;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace;
+  margin: 1vw;
 }
 
-h1 {
+.presentation {
+  margin-left: 6vw;
+  margin-bottom: 4vw;
+}
+
+.CV {
+  position: relative;
+  display: inline-block;
   font-family: "Space Mono", monospace;
-  font-size: 4vw;
+  font-size: 3vw;
+  margin: 4vw;
+  margin-bottom: 1vw;
+}
+
+.CV::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 80%;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  -webkit-animation: souligneTitre 2s ease-in-out 1s;
+          animation: souligneTitre 2s ease-in-out 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes souligneTitre {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes souligneTitre {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=resume.component.css.map */
