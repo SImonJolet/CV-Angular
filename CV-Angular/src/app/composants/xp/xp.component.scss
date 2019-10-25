@@ -3,10 +3,34 @@
   line-height: 1.9;
 }
 .formationTitre {
+  display: inline-block;
+  position: relative;
   font-family: "Space Mono", monospace;
   font-size: 3vw;
   margin-bottom: 1vw;
 }
+
+.formationTitre::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 75%;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  animation: souligneTitre 2s ease-in-out 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes souligneTitre {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 #becodeLogo {
   font-family: "Roboto Mono", monospace;
   font-size: 2vw;
@@ -45,8 +69,21 @@
   line-height: 1.9;
 }
 .autreExperience {
+  display: inline-block;
+  position: relative;
   font-family: "Space Mono", monospace;
   font-size: 3vw;
+}
+.autreExperience::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 75%;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  animation: souligneTitre 2s ease-in-out 1s;
+  animation-fill-mode: forwards;
 }
 #Coderdojo {
   font-family: "Space Mono", monospace;
