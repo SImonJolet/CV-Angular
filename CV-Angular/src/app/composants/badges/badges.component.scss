@@ -105,13 +105,12 @@
   padding: 1vw;
 
   &:hover {
-    transition-duration: 2s;
+    transition-duration: 1.3s;
     width: 10vw;
     height: auto;
     background-color: #d6eaf8;
     border-radius: 50%;
     border: 1.5px solid #fe2c2c;
-
     cursor: pointer;
   }
 }

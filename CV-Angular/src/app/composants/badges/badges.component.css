@@ -159,8 +159,8 @@
 }
 
 .badge:hover {
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
   width: 10vw;
   height: auto;
   background-color: #d6eaf8;
