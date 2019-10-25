@@ -15,6 +15,9 @@
     <title>Simon Jolet</title>
   </head>
   <body>
+    <div *ngIf="router.url === '/info'">
+      <app-nav-bar></app-nav-bar>
+    </div>
     <div class="xp">Expériences avec:</div>
     <div class="techniques">
       <div id="html5">

@@ -1,12 +1,42 @@
-body {
-  cursor: default;
-}
-
 .xp {
+  position: relative;
+  display: inline-block;
   font-family: "Space Mono", monospace;
-  font-size: 4vw;
+  font-size: 3vw;
   margin: 4vw;
   margin-bottom: 1vw;
+}
+
+.xp::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 80%;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  -webkit-animation: souligneTitre 2s ease-in-out 1s;
+          animation: souligneTitre 2s ease-in-out 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes souligneTitre {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes souligneTitre {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 .techniques {
@@ -144,11 +174,27 @@ body {
 }
 
 .softskillsTitle {
+  position: relative;
+  display: inline-block;
   font-family: "Space Mono", monospace;
-  font-size: 4vw;
+  font-size: 3vw;
   margin-bottom: 1vw;
   margin-top: 1vw;
   margin-left: -1vw;
+}
+
+.softskillsTitle::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 80%;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  -webkit-animation: souligneTitre 2s ease-in-out 1s;
+          animation: souligneTitre 2s ease-in-out 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 ul {
