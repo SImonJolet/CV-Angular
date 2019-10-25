@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,MAAM,EAAE,GAAG;EACX,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,KAAK;CACjB;;AACD,AAAA,CAAC,CAAC;EACA,WAAW,EAAE,GAAG;CACjB;;AACD,AAAA,EAAE,CAAC;EACD,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAAE,GAAG;CACf",
     "sources": [
         "resume.component.scss"
     ],
