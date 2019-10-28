@@ -1,5 +1,5 @@
 p {
-  text-indent: 2vw;
+  text-indent: 1.5vw;
   font-family: "Roboto Mono", monospace;
   margin: 1vw;
 }
@@ -7,7 +7,9 @@ p {
 .presentation {
   margin-left: 6vw;
   margin-bottom: 4vw;
+  margin-right: 6vw;
   font-size: 1.8vw;
+  text-align: justify;
 }
 
 .CV {
