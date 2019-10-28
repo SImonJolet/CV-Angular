@@ -103,9 +103,9 @@
   height: auto;
   text-align: center;
   padding: 1vw;
+  transition-duration: 1.3s;
 
   &:hover {
-    transition-duration: 1.3s;
     width: 10vw;
     height: auto;
     background-color: #d6eaf8;

@@ -156,11 +156,11 @@
   height: auto;
   text-align: center;
   padding: 1vw;
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
 }
 
 .badge:hover {
-  -webkit-transition-duration: 1.3s;
-          transition-duration: 1.3s;
   width: 10vw;
   height: auto;
   background-color: #d6eaf8;
