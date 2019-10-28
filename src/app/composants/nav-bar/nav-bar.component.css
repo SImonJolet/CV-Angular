@@ -9,6 +9,7 @@
 
 .navBar a {
   font-family: "Roboto Mono", monospace;
+  font-size: 1.8vw;
   text-decoration: none;
   color: black;
   cursor: pointer;

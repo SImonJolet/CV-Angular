@@ -6,10 +6,21 @@
   display: flex;
 }
 
+.photoprofil-holder {
+  width: 30%;
+}
+
+.Photoprofil {
+  border-radius: 2%;
+  display: block;
+  width: 100%;
+}
+
 .infoHaut {
   font-family: "Roboto Mono", monospace;
   margin-left: 2vw;
-  margin-top: -2.3vw;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
 }
 
 .infoBas {
@@ -20,6 +31,7 @@
       justify-content: space-around;
   background-color: #eae7e7;
   font-family: "Roboto Mono", monospace;
+  font-size: 1.8vw;
   padding: 1vw;
   margin: 2vw;
 }
@@ -71,6 +83,8 @@
 
 .CeQueJeCherche {
   font-family: "Space Mono", monospace;
+  font-size: 3vw;
+  font-weight: bold;
 }
 
 .Naissance {
@@ -81,11 +95,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.8vw;
 }
 
 .name {
   font-family: "Space Mono", monospace;
   font-size: 6vw;
+  margin-bottom: 1vw;
 }
 
 .Secteur {
@@ -96,6 +112,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.8vw;
 }
 
 .Objectif {
@@ -106,6 +123,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.8vw;
 }
 
 .date {
@@ -116,6 +134,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.8vw;
 }
 
 #naissanceIcon {
