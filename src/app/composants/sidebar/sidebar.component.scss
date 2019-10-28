@@ -33,6 +33,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding-left: 0.25vw;
+  padding-right: 0.25vw;
 }
 .Mail {
   @extend .barcontact;
@@ -47,27 +50,31 @@
   @extend .barcontact;
 }
 .adresse {
-  text-align: center;
+  @extend .barcontact;
 }
 
 #iconMail {
   width: 3vw;
   height: auto;
+  margin-bottom: 0.5vw;
 }
 
 #iconTelephone {
   width: 3vw;
   height: auto;
+  margin-bottom: 0.5vw;
 }
 
 #iconAdresse {
   width: 3vw;
   height: auto;
+  margin-bottom: 0.5vw;
 }
 
 #iconVoiture {
   width: 3vw;
   height: auto;
+  margin-bottom: 0.5vw;
 }
 
 .droite {

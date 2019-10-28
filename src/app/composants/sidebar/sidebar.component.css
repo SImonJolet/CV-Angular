@@ -36,7 +36,7 @@
   margin: 2vw;
 }
 
-.barcontact, .Mail, .iconTelephone, .iconAdresse, .iconVoiture {
+.barcontact, .Mail, .iconTelephone, .iconAdresse, .iconVoiture, .adresse {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,30 +50,33 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.adresse {
   text-align: center;
+  padding-left: 0.25vw;
+  padding-right: 0.25vw;
 }
 
 #iconMail {
   width: 3vw;
   height: auto;
+  margin-bottom: 0.5vw;
 }
 
 #iconTelephone {
   width: 3vw;
   height: auto;
+  margin-bottom: 0.5vw;
 }
 
 #iconAdresse {
   width: 3vw;
   height: auto;
+  margin-bottom: 0.5vw;
 }
 
 #iconVoiture {
   width: 3vw;
   height: auto;
+  margin-bottom: 0.5vw;
 }
 
 .droite {
