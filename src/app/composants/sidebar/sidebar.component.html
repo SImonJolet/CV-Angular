@@ -1,97 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Contact</title>
-  </head>
-
-  <div *ngIf="router.url === '/badges'">
-    <app-nav-bar></app-nav-bar>
-  </div>
-  <body>
-    <div class="haut">
+<div *ngIf="router.url === '/badges'">
+  <app-nav-bar></app-nav-bar>
+</div>
+<body>
+  <div class="haut">
+    <figure class="photoprofil-holder">
       <img
         class="Photoprofil"
         src="../../../assets/photo Cv en ligne.png"
         alt="PhotoCV"
       />
-      <div class="infoHaut">
-        <div class="name">Simon Jolet</div>
-        <div class="Naissance">
-          <img
-            id="naissanceIcon"
-            src="https://img.icons8.com/ios/50/000000/birth-date.png"
-          />
-          5 septembre 1992
-        </div>
-        <h2 class="CeQueJeCherche">Ce que je cherche:</h2>
-        <div class="Secteur">
-          <img
-            id="SecteurIcon"
-            src="https://img.icons8.com/carbon-copy/100/000000/administrative-tools.png"
-          />Job: Web Développeur (Front-end)
-        </div>
+    </figure>
 
-        <div class="Objectif">
-          <img
-            id="ObjectifIcon"
-            src="https://img.icons8.com/carbon-copy/100/000000/document.png"
-          />Stage non-rémunéré
-        </div>
-        <div class="date">
-          <img
-            id="dateIcon"
-            src="https://img.icons8.com/carbon-copy/100/000000/calendar.png"
-          />Durée: 2 à 3 mois à partir du 9 décembre 2019
-        </div>
+    <div class="infoHaut">
+      <div class="name">Simon Jolet</div>
+      <div class="Naissance">
+        <img
+          id="naissanceIcon"
+          src="https://img.icons8.com/ios/50/000000/birth-date.png"
+        />
+        5 septembre 1992
+      </div>
+      <h2 class="CeQueJeCherche">Ce que je cherche:</h2>
+      <div class="Secteur">
+        <img
+          id="SecteurIcon"
+          src="https://img.icons8.com/carbon-copy/100/000000/administrative-tools.png"
+        />Job: Web Développeur (Front-end)
+      </div>
+
+      <div class="Objectif">
+        <img
+          id="ObjectifIcon"
+          src="https://img.icons8.com/carbon-copy/100/000000/document.png"
+        />Stage non-rémunéré
+      </div>
+      <div class="date">
+        <img
+          id="dateIcon"
+          src="https://img.icons8.com/carbon-copy/100/000000/calendar.png"
+        />Durée: 2 à 3 mois à partir du 9 décembre 2019
       </div>
     </div>
-    <div class="infoBas">
-      <div class="Mail">
-        <div>
-          <img
-            id="iconMail"
-            src="https://img.icons8.com/carbon-copy/100/000000/email.png"
-          />
-        </div>
-
-        <div class="mail">jolet.simon@yahoo.com</div>
-      </div>
-      <div class="iconTelephone">
+  </div>
+  <div class="infoBas">
+    <div class="Mail">
+      <div>
         <img
-          id="iconTelephone"
-          src="https://img.icons8.com/carbon-copy/45/000000/phone-not-being-used.png"
+          id="iconMail"
+          src="https://img.icons8.com/carbon-copy/100/000000/email.png"
         />
-
-        <div class="telephone">0474/76.35.27</div>
       </div>
-      <div class="iconAdresse">
-        <img
-          id="iconAdresse"
-          src="https://img.icons8.com/dotty/45/000000/dog-house.png"
-        />
 
-        <div class="adresse">Quai de la Dérivation 11, <br />4020 Liège</div>
-      </div>
-      <div class="iconVoiture">
-        <img
-          id="iconVoiture"
-          src="https://img.icons8.com/carbon-copy/45/000000/fiat-500.png"
-        />
-
-        <div class="voiture">Voiture et permis B</div>
-      </div>
+      <div class="mail">jolet.simon@yahoo.com</div>
     </div>
-  </body>
-</html>
+    <div class="iconTelephone">
+      <img
+        id="iconTelephone"
+        src="https://img.icons8.com/carbon-copy/45/000000/phone-not-being-used.png"
+      />
+
+      <div class="telephone">0474/76.35.27</div>
+    </div>
+    <div class="iconAdresse">
+      <img
+        id="iconAdresse"
+        src="https://img.icons8.com/dotty/45/000000/dog-house.png"
+      />
+
+      <div class="adresse">Quai de la Dérivation 11, <br />4020 Liège</div>
+    </div>
+    <div class="iconVoiture">
+      <img
+        id="iconVoiture"
+        src="https://img.icons8.com/carbon-copy/45/000000/fiat-500.png"
+      />
+
+      <div class="voiture">Voiture et permis B</div>
+    </div>
+  </div>
+</body>

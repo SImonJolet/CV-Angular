@@ -3,15 +3,21 @@
   margin-top: 7vw;
   display: flex;
 }
+
+.photoprofil-holder {
+  width: 30%;
+}
+
 .Photoprofil {
   border-radius: 2%;
-  width: 30%;
+  display: block;
+  width: 100%;
 }
 
 .infoHaut {
   font-family: "Roboto Mono", monospace;
   margin-left: 2vw;
-  margin-top: -2.3vw;
+  flex-shrink: 1;
 }
 .infoBas {
   display: flex;
