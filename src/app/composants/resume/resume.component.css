@@ -1,13 +1,13 @@
 p {
   text-indent: 2vw;
   font-family: "Roboto Mono", monospace;
-  font-family: "Roboto Mono", monospace;
   margin: 1vw;
 }
 
 .presentation {
   margin-left: 6vw;
   margin-bottom: 4vw;
+  font-size: 1.8vw;
 }
 
 .CV {
@@ -23,7 +23,7 @@ p {
   position: absolute;
   content: "";
   left: 0;
-  top: 80%;
+  top: 100%;
   width: 0;
   height: 2px;
   background-color: #000;
