@@ -52,7 +52,18 @@
 .adresse {
   @extend .barcontact;
 }
-
+.boutonDownload {
+  display: flex;
+  justify-content: center;
+}
+.boutonDownload2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3vw;
+  border: 2px solid #eae7e7;
+  margin: 1vw;
+  padding: 1vw;
+  cursor: pointer;
+}
 #iconMail {
   width: 3vw;
   height: auto;

@@ -55,6 +55,24 @@
   padding-right: 0.25vw;
 }
 
+.boutonDownload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boutonDownload2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3vw;
+  border: 2px solid #eae7e7;
+  margin: 1vw;
+  padding: 1vw;
+  cursor: pointer;
+}
+
 #iconMail {
   width: 3vw;
   height: auto;
