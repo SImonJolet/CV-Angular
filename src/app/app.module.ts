@@ -10,6 +10,7 @@ import { BadgesComponent } from './composants/badges/badges.component';
 import { XpComponent } from './composants/xp/xp.component';
 import { ResumeComponent } from './composants/resume/resume.component';
 import { MainpageComponent } from './composants/mainpage/mainpage.component';
+import { ProjectsComponent } from './composants/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MainpageComponent } from './composants/mainpage/mainpage.component';
     BadgesComponent,
     XpComponent,
     ResumeComponent,
-    MainpageComponent
+    MainpageComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
