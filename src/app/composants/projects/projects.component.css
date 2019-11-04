@@ -68,8 +68,8 @@ a {
   display: block;
   width: 100%;
   border-radius: 1vw;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .hoverImg:hover, .cestRegleImg:hover, .trouvkashImg:hover, .bookAPIImg:hover {
@@ -94,9 +94,9 @@ a {
   font-family: "Roboto Mono", monospace;
   font-size: 1.2vw;
   font-weight: bold;
-  width: 14vw;
-  height: 14vw;
-  margin-left: 4vw;
+  width: 10vw;
+  height: 10vw;
+  margin-left: 11vw;
   background-color: #d6eaf8;
   border: 1px solid #fc011c;
   border-radius: 50%;
@@ -105,10 +105,10 @@ a {
 }
 
 .deployButton:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   background-color: white;
-  font-size: 1.8vw;
+  font-size: 1.2vw;
   cursor: pointer;
 }
 
@@ -116,9 +116,9 @@ a {
   font-family: "Roboto Mono", monospace;
   font-size: 1.2vw;
   font-weight: bold;
-  width: 14vw;
-  height: 14vw;
-  margin-left: 2vw;
+  width: 10vw;
+  height: 10vw;
+  margin-left: 4vw;
   background-color: #fae5d3;
   border: 1px solid #fc011c;
   border-radius: 50%;
@@ -127,10 +127,10 @@ a {
 }
 
 .githubButton:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   background-color: white;
-  font-size: 1.8vw;
+  font-size: 1.2vw;
   cursor: pointer;
 }
 
