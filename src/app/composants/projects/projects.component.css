@@ -1,1 +1,166 @@
-/* No CSS *//*# sourceMappingURL=projects.component.css.map */
+.titre {
+  font-family: "Space Mono", monospace;
+  font-size: 3vw;
+  margin: 4vw;
+  margin-bottom: 2vw;
+  position: relative;
+  display: inline-block;
+}
+
+.titre::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  -webkit-animation: souligneTitre 2s ease-in-out 1s;
+          animation: souligneTitre 2s ease-in-out 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes souligneTitre {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes souligneTitre {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.titrePartie, .cestRegleTitre, .trouvkashTitre, .bookAPITitre {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3vw;
+  margin: 3vw;
+  margin-left: 6vw;
+  margin-bottom: 1vw;
+}
+
+.descriptionPartie, .cestRegleDescription, .trouvkashDescription, .bokkAPIDescription {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5vw;
+  margin: 1vw;
+  margin-left: 7vw;
+}
+
+#imgPlaceHolder {
+  display: inline-block;
+  width: 50%;
+}
+
+.cestRegleImg {
+  display: block;
+  width: 100%;
+  border-radius: 1vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cestRegleImg:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  overflow: hidden;
+}
+
+.trouvkashImg {
+  display: block;
+  width: 100%;
+  border-radius: 1vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.trouvkashImg:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  overflow: hidden;
+}
+
+.bookAPIImg {
+  display: block;
+  width: 100%;
+  border-radius: 1vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.bookAPIImg:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  overflow: hidden;
+}
+
+.flex {
+  margin-left: 7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.deployButton {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2vw;
+  font-weight: bold;
+  width: 14vw;
+  height: 14vw;
+  margin-left: 4vw;
+  background-color: #d6eaf8;
+  border: 1px solid #fc011c;
+  border-radius: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.deployButton:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: white;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+
+.githubButton {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2vw;
+  font-weight: bold;
+  width: 14vw;
+  height: 14vw;
+  margin-left: 2vw;
+  background-color: #fae5d3;
+  border: 1px solid #fc011c;
+  border-radius: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.githubButton:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: white;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+
+.bookAPI {
+  margin-bottom: 6vw;
+}
+/*# sourceMappingURL=projects.component.css.map */

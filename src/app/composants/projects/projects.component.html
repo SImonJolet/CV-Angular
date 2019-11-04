@@ -1,4 +1,99 @@
 <div *ngIf="router.url === '/projects'">
   <app-nav-bar></app-nav-bar>
 </div>
-<div>Coucou</div>
+
+<div class="titre">Mes Projets:</div>
+<div class="CestRegle">
+  <div class="cestRegleTitre">
+    <a href="https://cestregle.joletsimon.now.sh/" target="_blank">
+      C'est Réglé</a
+    >
+  </div>
+  <div class="cestRegleDescription">
+    Site vitrine d'une association caritative écrit en HTML-CSS
+  </div>
+  <div class="flex">
+    <div class="cestReglePlaceHolder" id="imgPlaceHolder">
+      <a href="https://cestregle.joletsimon.now.sh/" target="_blank">
+        <img
+          class="cestRegleImg"
+          src="../../../assets/CestRegleimg.png"
+          alt="C'est Réglé"
+      /></a>
+    </div>
+    <a href="cv-angular.joletsimon.now.sh" target="_blank">
+      <button class="deployButton" id="cestRegleButtonDeploy" type="button">
+        Déploiement
+      </button>
+    </a>
+    <a href="https://github.com/SImonJolet/CestRegle" target="_blank">
+      <button class="githubButton" id="cestRegleButtonGithub" type="button">
+        Repository
+      </button>
+    </a>
+  </div>
+</div>
+<div class="Trouvkash">
+  <div class="trouvkashTitre">
+    <a href="https://trouvkash.herokuapp.com/" target="_blank">
+      Trouvkash
+    </a>
+  </div>
+  <div class="trouvkashDescription">
+    Projet d'app' de géolocalisation de l'utilisateur et des banques
+    environnantes en utilisant une DB existante et le framework React.
+  </div>
+  <div class="flex">
+    <div class="trouvkashPlaceHolder" id="imgPlaceHolder">
+      <a href="https://trouvkash.herokuapp.com/" target="_blank">
+        <img
+          class="trouvkashImg"
+          src="../../../assets/Trouvkach.png"
+          alt="Trouvkash"
+        />
+      </a>
+    </div>
+    <a href="https://trouvkash.herokuapp.com/" target="_blank">
+      <button class="deployButton" id="trouvkashButtonDeploy" type="button">
+        Déploiement
+      </button>
+    </a>
+    <a href="https://github.com/SImonJolet/TrouvKach" target="_blank">
+      <button class="githubButton" id="trouvkashButtonGithub">
+        Repository
+      </button>
+    </a>
+  </div>
+</div>
+<div class="bookAPI">
+  <div class="bookAPITitre">
+    <a href="https://book-api-simphi.herokuapp.com/graphql" target="_blank">
+      Book-API
+    </a>
+  </div>
+  <div class="bokkAPIDescription">
+    API de gestion de bibliothèque avec gestion des requêtes en GraphQL, base de
+    données PostgreSQL.
+  </div>
+  <div class="flex">
+    <div class="bookAPIPlaceHolder" id="imgPlaceHolder">
+      <a href="https://book-api-simphi.herokuapp.com/graphql" target="_blank">
+        <img
+          class="bookAPIImg"
+          src="../../../assets/book-api.png"
+          alt="book-api"
+        />
+      </a>
+    </div>
+    <a href="https://book-api-simphi.herokuapp.com/graphql" target="_blank">
+      <button class="deployButton" id="BookAPIButtonDeploy" type="button">
+        Déploiement
+      </button>
+    </a>
+    <a href="https://github.com/haerphi/book-API" target="_blank">
+      <button class="githubButton" id="bookAPIButtonGithub">
+        Repository
+      </button>
+    </a>
+  </div>
+</div>
