@@ -15,7 +15,7 @@
   position: absolute;
   content: "";
   left: 0;
-  top: 75%;
+  top: 100%;
   width: 0;
   height: 2px;
   background-color: #000;
@@ -102,13 +102,14 @@
   position: relative;
   font-family: "Space Mono", monospace;
   font-size: 3vw;
+  margin-bottom: 1vw;
 }
 
 .autreExperience::after {
   position: absolute;
   content: "";
   left: 0;
-  top: 75%;
+  top: 100%;
   width: 0;
   height: 2px;
   background-color: #000;
