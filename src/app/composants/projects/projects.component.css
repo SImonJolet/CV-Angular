@@ -64,7 +64,7 @@ a {
   width: 50%;
 }
 
-.cestRegleImg {
+.hoverImg, .cestRegleImg, .trouvkashImg, .bookAPIImg {
   display: block;
   width: 100%;
   border-radius: 1vw;
@@ -72,38 +72,12 @@ a {
   transition: 0.3s;
 }
 
-.cestRegleImg:hover {
+.hoverImg:hover, .cestRegleImg:hover, .trouvkashImg:hover, .bookAPIImg:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   overflow: hidden;
-}
-
-.trouvkashImg {
-  display: block;
-  width: 100%;
-  border-radius: 1vw;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.trouvkashImg:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  overflow: hidden;
-}
-
-.bookAPIImg {
-  display: block;
-  width: 100%;
-  border-radius: 1vw;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.bookAPIImg:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  overflow: hidden;
+  -webkit-box-shadow: 2vw 1vw 1vw #cbcbcb;
+          box-shadow: 2vw 1vw 1vw #cbcbcb;
 }
 
 .flex {
