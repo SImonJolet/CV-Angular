@@ -8,6 +8,7 @@ import { XpComponent } from "./composants/xp/xp.component";
 import { ResumeComponent } from "./composants/resume/resume.component";
 import { MainpageComponent } from "./composants/mainpage/mainpage.component";
 import { ProjectsComponent } from "./composants/projects/projects.component";
+
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "navbar", component: NavBarComponent },
