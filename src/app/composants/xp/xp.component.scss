@@ -30,7 +30,12 @@
     width: 100%;
   }
 }
-
+#becodeLogoLink {
+  transition: 0.4s ease;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
 #becodeLogo {
   font-family: "Roboto Mono", monospace;
   font-size: 2vw;

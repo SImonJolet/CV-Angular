@@ -43,6 +43,16 @@
   }
 }
 
+#becodeLogoLink {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+#becodeLogoLink:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 #becodeLogo {
   font-family: "Roboto Mono", monospace;
   font-size: 2vw;
