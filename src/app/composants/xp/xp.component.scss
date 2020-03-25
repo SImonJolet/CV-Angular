@@ -30,6 +30,23 @@
     width: 100%;
   }
 }
+#noomiaLogoLink{
+  transition: 0.4s ease;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+#noomiaLogo{
+  font-family: "Roboto Mono", monospace;
+  font-size: 2vw;
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
+}
+.logo_noomia {
+  padding-right: 1vw;
+}
+
 #becodeLogoLink {
   transition: 0.4s ease;
   &:hover {
